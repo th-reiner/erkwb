@@ -1,0 +1,26 @@
+<h2>Gemeinden</h2>
+
+{% for gemeinde in site.data.gemeinden %}
+<div>
+    <h3><a href="{{ gemeinde.url }}">{{ gemeinde.name }}</a></h3>
+    <span style="float:left;margin:0 1em 1em 0">
+        <img src="{{ gemeinde.bild_lokal | absolute_url }}" alt="Lokal der {{ gemeinde.name }}" style="background-size:contain; height:6em;">
+    </span>
+    <span>
+        <p>
+            {{ gemeinde.adresse.haus }}<br />
+            {{ gemeinde.adresse.strasse }}<br />
+            {{ gemeinde.adresse.ort }}<br />
+        </p>
+        <p>
+            <a href="{{ gemeinde.adresse.karte_url }}">Adresse auf Karte anzeigen</a>
+        </p>
+        <p>Gottesdienste: <a href="{{ gemeinde.gottesdienst.url }}">{{ gemeinde.gottesdienst.zeit }}</a></p>
+        <p><a href="{{ gemeinde.url }}">{{ gemeinde.url }}</a></p>
+    </span>
+</div>
+{% endfor %}
+
+<p>
+    <a href="http://www.reformiert.at"><i class="fa fa-external-link-square"></i> Gemeinden der ERKWB in Österreich</a>
+</p>

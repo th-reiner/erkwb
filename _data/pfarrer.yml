@@ -1,0 +1,28 @@
+---
+-
+  name: Thomas Reiner
+  id: threiner
+  gemeinde:
+    amt: Pfarrer der ERKWB Winterthur
+    url: 'http://winterthur.erkwb.ch'
+  foto: '/assets/pictures/thr.jpg'
+  person: >
+    Thomas Reiner ist verheiratet und hat zusammen mit seiner Frau Brigitte vier Kinder. Nach einer Lehre als Werkzeugmacher und einigen Jahren Berufserfahrung, studierte er am Theologischen Seminar St. Chrischona in Basel.
+  zitat: >
+    Als Mensch, der von Gott und seinem gutem Wort gepackt wurde, ist es mein Herzenswunsch, andere Menschen auf den reichen Segen hinzuweisen, der in Christus zu finden ist.
+  email: threiner@erkwb.ch
+  telefon: 077 211 71 00
+
+-
+  name: Kurt Vetterli
+  id: kvetterli
+  gemeinde:
+    amt: Pfarrer der ERKWB Basel
+    url: 'http://basel.erkwb.ch'
+  foto: '/assets/pictures/kv.jpg'
+  person: >
+    Kurt Vetterli ist die Hälfte seines Lebens mit Barbara verheiratet und hat drei Kinder. Er arbeitet 50% in einer Zweitanstellung.
+  zitat: >
+    Die Kirche sollte in Lehre und Praxis wieder auf den Boden der Heiligen Schrift zurückkehren und ihren Auftrag, die Welt mit dem Evangelium von Jesus Christus zu erreichen, verstärkt verfolgen.
+  email: kvetterli@erkwb.ch
+  telefon: 079 468 51 52

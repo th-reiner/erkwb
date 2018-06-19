@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% include page-intro.html %}
+
+<main id="main" class="page-content" aria-label="Content">
+    <div class="index inner">
+        {{ site.description }}
+
+        {% for link in page.info_link %}
+        <p><a href="{{ site.baseurl }}{{ link.url }}">{{ link.name }}</a></p>
+        {% endfor %}
+    </div>
+</main>
+
+<main id="main" class="page-content" aria-label="Content" style="background:#eee; padding: .2em 0 1em 0;">
+    <div class="index inner">
+        {% include gemeinde-list.html %}
+    </div>
+</main>
+
+        <main id="main" class="page-content" aria-label="Content">
+            <div class="index inner">
+        <div>{{ content }}</div>
+    </div>
+</main>

@@ -1,0 +1,54 @@
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.site-footer {
+  margin-top: 4rem;
+  padding: 2em 0 .5em 0;
+  color: white;
+  font-size: 100%;
+  background-color: #3C9CA7;
+
+  .inner {
+    padding: 0 0.5rem;
+
+    @include breakpoint($small) {
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+
+    @include breakpoint($medium) {
+      padding-right: 2rem;
+      padding-left: 2rem;
+    }
+
+    @include breakpoint($large) {
+      padding-right: 3rem;
+      padding-left: 3rem;
+    }
+
+    @include breakpoint($xlarge) {
+      padding-right: 4rem;
+      padding-left: 4rem;
+    }
+  }
+}
+
+.copyright {
+  font-family: $base-font-family;
+}
+
+.site-footer a {
+    color: white;
+    text-decoration: none;
+    border-bottom: .1em solid white;
+}
+
+.site-footer a:hover {
+    color: #b0E0E6;
+    border-bottom: .1em solid #b0E0E6;
+}
+
+.footer_link {
+    margin-right: 1em;
+}

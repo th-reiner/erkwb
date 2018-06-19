@@ -1,0 +1,37 @@
+<ul class="contact-list">
+  {% if site.email %}
+    <li>
+      <a href="mailto:{{ site.email }}">
+        <span class="icon icon--email">{% include icon-email.svg %}</span>
+        <span class="label">{{ site.data.theme.t.email | default: 'Email' }}</span>
+      </a>
+    </li>
+  {% endif %}
+
+  {% if site.github_username %}
+    <li>{% include icon-github.html username=site.github_username label='GitHub' %}</li>
+  {% endif %}
+
+  {% if site.twitter_username %}
+    <li>{% include icon-twitter.html username=site.twitter_username label='Twitter' %}</li>
+  {% endif %}
+
+  <li>
+    {% if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed' %}
+      <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}" title="Atom Feed">
+        <span class="icon icon--rss">{% include icon-rss.svg %}</span>
+        <span class="label">{{ site.data.theme.t.subscribe | default: 'Subscribe' }}</span>
+      </a>
+    {% endif %}
+  </li>
+  <li>
+      <a href="http://basel.erkwb.ch">ERKWB Basel</a>
+  </li>
+  <li>
+      <a href="http://winterthur.erkwb.ch">ERKWB Winterthur</a>
+  </li>
+  <li>&nbsp;</li>
+  <li>
+      <a href="http://www.reformiert.at/">ERKWB Österreich</a>
+  </li>
+</ul>

@@ -1,0 +1,18 @@
+---
+-
+  jahr: 2005
+  format: gross
+  -
+    titel: >
+      'Gründung der <a href="http://winterthur.erkwb.ch">ERKWB Winterthur</a>'
+    text: >
+      <a href="{{ site.baseurl }}/kontakt/#threiner">Thomas Reiner</a> wird als Vikar eingesetzt.<br /> Die Gottesdienste werden in einem Privathaus in Neftenbach gefeiert.
+-
+  jahr: 2006
+  format: klein
+  -
+    titel: ERKWB Winterthur
+    text: >
+      Die Räumlichkeiten an der <a href="http://winterthur.erkwb.ch/locations/erkwb-winterthur/">Schlachthofstrasse in Winterthur-Töss</a> werden bezogen.<br />
+      <a href="{{ site.baseurl }}/kontakt/#threiner">Thomas Reiner</a> wird zum Pfarrer ordiniert.
+-

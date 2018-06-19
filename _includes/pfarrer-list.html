@@ -1,0 +1,25 @@
+<h2>Pfarrer der ERKWB Schweiz</h2>
+
+{% for pfarrer in site.data.pfarrer %}
+
+<h3 id="{{ pfarrer.id }}">{{ pfarrer.name }}</h3>
+
+<a href="{{ pfarrer.gemeinde.url }}">{{ pfarrer.gemeinde.amt }}</a>
+
+<span style="float:left;margin:0 1em 1em 0">
+    <img src="{{ pfarrer.foto | absolute_url }}" alt="Foto von {{ pfarrer.name }}" style="background-size:contain; height:8em;">
+</span>
+
+<p>{{ pfarrer.person }}</p>
+
+<blockquote>
+    <p>{{ pfarrer.zitat }}</p>
+</blockquote>
+
+<p>
+    {% icon fas fa-envelope %} <a href="mailto:{{ pfarrer.email }}">{{ pfarrer.email }}</a>
+</p>
+
+<p>{% icon fas fa-phone-square %} {{ pfarrer.telefon }}</p>
+
+{% endfor %}

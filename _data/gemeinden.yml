@@ -1,0 +1,28 @@
+---
+-
+  name: ERKWB Basel
+  adresse:
+    haus: 'C. F. Spittlerhaus'
+    strasse: 'Socinstrasse 13'
+    ort: '4051 Basel'
+    karte_url: 'https://www.openstreetmap.org/node/2684891290#map=17/47.55762/7.57920'
+  gottesdienst:
+    zeit: 'Sonntag, 11 Uhr'
+    url: 'http://basel.erkwb.ch/gottesdienste/'
+  url: 'http://basel.erkwb.ch'
+  bild_lokal: '/assets/pictures/lokal-basel.jpg'
+
+-
+  name: ERKWB Winterthur
+  adresse:
+    haus: 'Standort 19'
+    strasse: 'Schlachthofstrasse 19'
+    ort: '8406 Winterthur'
+    karte_url: 'https://www.openstreetmap.org/node/4396116954#map=17/47.49554/8.70120'
+  gottesdienst:
+    zeit: 'Sonntag, 10:30 Uhr'
+    url: 'http://winterthur.erkwb.ch/gottesdienste'
+  url: 'http://winterthur.erkwb.ch'
+  bild_lokal: '/assets/pictures/lokal-winterthur.jpg'
+
+...
