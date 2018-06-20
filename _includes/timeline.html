@@ -1,0 +1,17 @@
+<section class="timeline">
+<ul>
+    {% for ereignis in site.data.timeline %}
+    <li class="gross">
+      <div>
+        <time>{{ ereignis.jahr }}</time>
+        <p>
+            <a href="{{ ereignis.url }}">
+                <strong>{{ ereignis.gemeinde }}</strong>
+            </a>
+            <br />
+        {{ ereignis.beschreibung }}</p>
+      </div>
+    </li>
+    {% endfor %}
+</ul>
+</section>

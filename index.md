@@ -3,17 +3,17 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-image: assets/pictures/landschaft.jpg
+image: assets/pictures/gipfelkreuz.jpg
 info_link:
   -
-    name: Geschichte der Kirche
+    name: Geschichte der ERKWB
     url: /about/
   -
-    name: Name der Kirche
-    url: /kirchenname/
-  -
-    name: Bekenntnis der Kirche
+    name: Bekenntnis der ERKWB
     url: /bekenntnis/
+  -
+    name: Synode der ERKWB
+    url: /synode/
 ---
 
 ## Evangelium

@@ -1,18 +1,31 @@
 ---
 -
-  jahr: 2005
-  format: gross
-  -
-    titel: >
-      'Gründung der <a href="http://winterthur.erkwb.ch">ERKWB Winterthur</a>'
-    text: >
-      <a href="{{ site.baseurl }}/kontakt/#threiner">Thomas Reiner</a> wird als Vikar eingesetzt.<br /> Die Gottesdienste werden in einem Privathaus in Neftenbach gefeiert.
+    jahr: 1984
+    gemeinde: ERKWB Neuhofen
+    url: http://www.reformiert.at/church/kirche.htm
+    beschreibung: >
+      Reinhod Widter gründet die erste Gemeinde der ERKWB.
 -
-  jahr: 2006
-  format: klein
-  -
-    titel: ERKWB Winterthur
-    text: >
-      Die Räumlichkeiten an der <a href="http://winterthur.erkwb.ch/locations/erkwb-winterthur/">Schlachthofstrasse in Winterthur-Töss</a> werden bezogen.<br />
-      <a href="{{ site.baseurl }}/kontakt/#threiner">Thomas Reiner</a> wird zum Pfarrer ordiniert.
+    jahr: 1998
+    gemeinde: ERKWB Rankweil
+    url: http://www.reformiert.at/church/kirche.htm
+    beschreibung: >
+      Die Gemeinde Rankweil wird gegründet und Reinhard Mayer als Pfarrer eingesetzt.
 -
+    jahr: 2005
+    gemeinde: ERKWB Winterthur
+    url: http://winterthur.erkwb.ch
+    beschreibung: >
+      Die Gemeinde wird mithilfe der ERKWB Rankweil gegründet und Thomas Reiner als Pfarrer eingesetzt.
+-
+    jahr: 2008
+    gemeinde: ERKWB Basel
+    url: http://basel.erkwb.ch
+    beschreibung: >
+      Die Gemeinde wird mithilfe der ERKWB Winterthur gegründet und Kurt Vetterli als Pfarrer eingesetzt.
+-
+    jahr: 2009
+    gemeinde: New City Wien
+    url: http://new.newcitywien.at
+    beschreibung: >
+      Brad Hunter gründet mit einem Team eine Gemeinde der ERKWB in Wien.

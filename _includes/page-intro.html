@@ -12,6 +12,11 @@
 
   <div class="inner">
     <div class="intro-text">
+        {% if page.layout == 'post' %}
+        <p style="margin-bottom:2em;">
+            <a href="{{ site.baseurl }}/synode/"><span class="icon icon--arrow-left">{% include icon-arrow-left.svg %}</span> Zur&uuml;ck zur &Uuml;bersicht</a>
+        </p>
+        {% endif %}
       <h1 id="page-title" class="intro-title">{{ page.alt_title | default: page.title | default: site.title | markdownify | strip_html }}</h1>
       {% if page.sub_title %}
         <p class="intro-subtitle">{{ page.sub_title | markdownify | strip_html }}</p>
@@ -20,7 +25,20 @@
       {% if page.date %}
         {% include author %}
         <p class="entry-meta">
-          {% if author_name %}<span class="byline-item">{{ author_name | prepend: 'by ' }}</span>{% endif %}<span class="byline-item"><span class="icon">{% include icon-calendar.svg %}</span><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></span>{% if page.read_time %} <span class="byline-item"><span class="icon">{% include icon-stopwatch.svg %}</span>{% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}</span>{% endif %}
+          {% if author_name %}
+            <span class="byline-item">{{ author_name | prepend: 'by ' }}</span>
+          {% endif %}
+          <span class="byline-item">
+              <span class="icon">{% include icon-calendar.svg %}</span>
+              <time datetime="{{ page.date | date_to_xmlschema }}">
+                  {{ page.date | date: "%-d. " }}
+                  {{ page.date | german_long_month }}
+                  {{ page.date | date: "%Y" }}
+              </time>
+          </span>
+          {% if page.read_time %}
+          <span class="byline-item"><span class="icon">{% include icon-stopwatch.svg %}</span>{% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}</span>
+          {% endif %}
         </p>
       {% endif %}
 

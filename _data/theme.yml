@@ -36,8 +36,8 @@ t:
 
 navigation_pages:
   - about.md
-  - bekenntnis/index.md
+  - synode.md
+  - bekenntnis.md
   - evangelium.md
-  - kontakt.md
 
 ...

@@ -1,0 +1,37 @@
+---
+
+-
+  name: 'ERKWB Neuhofen'
+  adresse:
+    strasse: 'Steyrerstrasse 35'
+    ort: '4501 Neuhofen an der Krems'
+    karte_url: 'https://www.google.com/maps/place/Steyrerstra%C3%9Fe+35,+4501+Neuhofen+an+der+Krems,+%C3%96sterreich/@48.1378433,14.2350361,18z/data=!4m5!3m4!1s0x4773eabccb51f38d:0x1198a18526555905!8m2!3d48.1382013!4d14.2358461'
+  gottesdienst:
+    zeit: 9:30 Uhr
+    url_gottesdienste: 'http://www.reformiert.at/church/kirche.htm'
+  url: 'http:www.reformiert.at'
+  bild_lokal: '/assets/pictures/erkwb-neuhofen.jpg'
+
+-
+  name: ERKWB Rankweil
+  adresse:
+    strasse: 'Feldkreuzweg 13'
+    ort: '6830 Rankweil'
+    karte_url: 'https://www.google.com/maps/place/Feldkreuzweg+13,+6830+Rankweil,+%C3%96sterreich/@47.2734978,9.6219342,18z/data=!4m13!1m7!3m6!1s0x479b3931188e5ead:0xb2f79c9492f009d6!2sFeldkreuzweg+13,+6830+Rankweil,+%C3%96sterreich!3b1!8m2!3d47.2734942!4d9.6230339!3m4!1s0x479b3931188e5ead:0xb2f79c9492f009d6!8m2!3d47.2734942!4d9.6230339'
+  gottesdienst:
+    zeit: 10 Uhr
+    url_gottesdienste: 'http://www.reformiert.at/church/kirche.htm'
+  url: 'http:www.reformiert.at'
+  bild_lokal: '/assets/pictures/erkwb-rankweil.jpg'
+
+-
+  name: New City Wien
+  adresse:
+    strasse: 'Wiedner Hauptstrasse 45-47'
+    ort: '1040 Wien'
+    karte_url: 'https://www.google.com/maps/place/Wiedner+Hauptstra%C3%9Fe+45-47,+1040+Wien,+%C3%96sterreich/@48.1930415,16.3669831,20z/data=!4m5!3m4!1s0x476d07804b572f97:0xa8235d20e13ed66a!8m2!3d48.1930737!4d16.367305'
+  gottesdienst:
+    zeit: 15 und 17 Uhr
+    url_gottesdienste: 'http://new.newcitywien.at/de/kalender/'
+  url: 'http://new.newcitywien.at'
+  bild_lokal: '/assets/pictures/erkwb-wien.jpg'

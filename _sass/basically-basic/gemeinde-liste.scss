@@ -1,0 +1,25 @@
+#gemeinde-container {
+    display: block;
+}
+
+.foto_lokal {
+    display: block;
+    float: left;
+    margin: 0 1em .5em 0;
+}
+
+.beschreibung {
+    display: inline-block;
+    height: 100%;
+    min-width: 15em;
+}
+
+.gemeinde_bild {
+    background-size: contain;
+    height: 9em;
+}
+
+.gemeinde {
+    font-weight: bolder;
+    font-size: 1.1em;
+}

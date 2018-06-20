@@ -5,11 +5,10 @@
 .entry {
   @include clearfix();
   margin-bottom: 2rem;
-  padding-bottom: 2rem;
 
-  &:not(:last-child) {
+/*  &:not(:last-child) {
     border-bottom: 1px solid $border-color;
-  }
+}*/
 
   a {
     color: inherit;
@@ -17,7 +16,7 @@
 }
 
 .entry-title {
-  @include fluid-type($min-vw, $max-vw, 18px, 24px);
+  @include fluid-type($min-vw, $max-vw, 16px, 20px);
   margin-bottom: 0.5rem;
   color: tint($text-color, 25%);
   line-height: inherit;
